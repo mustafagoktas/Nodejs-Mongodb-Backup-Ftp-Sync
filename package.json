@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mustafagoktas/Nodejs-Mongodb-Backup-Ftp-Sync.git"
+    "url": "https://github.com/mustafagoktas/nodejs-mongodb-backup-ftpsync.git"
   },
   "dependencies": {
     "basic-ftp": "^2.9.2",
