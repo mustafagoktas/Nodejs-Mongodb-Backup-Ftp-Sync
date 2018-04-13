@@ -1,10 +1,6 @@
-# Nodejs Mongodb Backup Ftp Sync
-=========
-
-```javascript
 var Backup = require("./backup.js");
 var CronJob = require('cron').CronJob;
-new CronJob('* * * * *',                  // Run  Time (* * * * * *) every second
+new CronJob('* * * * * *',                  // Run  Time (* * * * * *) every second
 function() {
   var testClass1 = new Backup({
     user: '',                          // MongoDB username
@@ -21,4 +17,3 @@ function() {
     ftpuploadfolder: ""     // Ftp Backup Folder
   });
 }, null, true, 'America/Los_Angeles');
-```

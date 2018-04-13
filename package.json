@@ -1,0 +1,21 @@
+{
+  "name": "node-mongodb-backup",
+  "version": "1.0.0",
+  "description": "Nodejs Mongodb Backup Ftp Sync",
+  "main": "run.js",
+  "scripts": {
+    "test": "make test"
+  },  
+  "author": "Mustafa Göktaş <mustafagoktass@gmail.com> (http://github.com/mustafagoktas)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mustafagoktas/Nodejs-Mongodb-Backup-Ftp-Sync.git"
+  },
+  "dependencies": {
+    "basic-ftp": "^2.9.2",
+    "cron": "^1.3.0",
+    "exec-then": "^1.3.1",
+    "mongoose": "^5.0.14"
+  }
+}
